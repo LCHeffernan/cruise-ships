@@ -26,6 +26,7 @@ Firstly you will need to create as many ports as you want (I have created 3), an
 * ```const oslo = new Port('Oslo');```
 * ```const itinerary = new Itinerary([dover, calais, oslo]);```
 * ```const neptune = new Ship(itinerary);```
+
 Once you have these set up you can see which port the ship is currently at using ```neptune.currentPort.name``` (it should say Dover). You can sail to the next port using ```neptune.setSail();``` and then dock using ```neptune.dock();```. If you check the ship's current port using ```neptune.currentPort.name``` you can see it has changed to Calais. The previous port can be checked using ```neptune.previousPort.name``` which should now be Dover. If you continue to set sail and dock through the ports in the itinerary you will see the previous and current ports change. If you try to sail past the last port an error will be thrown saying "end of itinerary".
 ___
 ## Author.
