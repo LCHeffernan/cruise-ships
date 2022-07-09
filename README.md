@@ -1,5 +1,6 @@
 # Cruise ship.
 ___
+## Description.
 This was my second JavaScript project, which was tested using Jest, the tests can be found in the \_\_tests__ folder. I created a GUI for this project which is in a different repo [here](https://github.com/LCHeffernan/cruise-ships-gui).
 
 Ports are created which the ship can sail from and dock. These ports are then used to create an itinerary which is used by the ship.
